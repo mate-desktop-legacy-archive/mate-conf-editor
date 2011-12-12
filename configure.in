@@ -1,6 +1,6 @@
 AC_INIT([MateConf Editor],
-        [2011.12.01],
-        [http://bugzilla.mate.org/enter_bug.cgi?product=mateconf-editor],
+        [1.1.0],
+        [http://www.mate-desktop.org/],
         [mateconf-editor])
 AC_CONFIG_SRCDIR([src/main.c])
 
@@ -47,7 +47,7 @@ case "$with_gtk" in
 esac
 
 PKG_CHECK_MODULES(MATECONF_EDITOR,
-		  mateconf-2.0 >= 2.9.2
+		  mateconf-2.0 >= 1.1.0
 		  gtk+-$GTK_API_VERSION >= $GTK_REQUIRED
 		  dbus-glib-1)
 
