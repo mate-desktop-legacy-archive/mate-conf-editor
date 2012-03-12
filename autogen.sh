@@ -14,9 +14,9 @@ if ! test -f $srcdir/src/mateconf-editor-application.c; then
   exit 1
 fi
 
-which mate-autogen.sh || {
+which mate-autogen || {
     echo "You need to install mate-common from Mate SVN"
     exit 1
 }
 
-. mate-autogen.sh
+. mate-autogen
