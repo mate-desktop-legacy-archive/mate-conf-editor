@@ -1,706 +1,258 @@
-commit 1bb442200ae21069a8c1e776f6ccbfe47364ffde
-Author: Cosimo Cecchi <cosimoc@gnome.org>
-Date:   2010-09-27
-
-    Release 2.32.0
-
-M	NEWS
-M	configure.in
-
-commit 0268aeb0aa5c115fa0763573dba83f774cb0bc8e
-Author: Baurzhan Muftakhidinov <baurthefirst@gmail.com>
-Date:	2010-09-15
-
-    Initial translation to Kazakh
-
-M	po/LINGUAS
-A	po/kk.po
-
-commit d8daf80d752a9c8a5f3d0c277c42032b7fc0be03
-Author: Piotr Drąg <piotrdrag@gmail.com>
-Date:	2010-09-02
-
-    Fix typo in Polish translation
-
-M	po/pl.po
-
-commit ea801000cb9314aa7e12c54fdaab034107a3d0eb
-Author: Dirgita <dirgitadevina@yahoo.co.id>
-Date:	2010-09-01
-
-    Updated Indonesian translation
-
-M	po/id.po
-
-commit 091f9b663900218ca6f0c32749ff7439a97e8706
-Author: Vincent Untz <vuntz@gnome.org>
-Date:	2010-08-05
-
-    [release] post-release bump to 2.31.90
-
-M	configure.in
-
-commit 1934323cd5269c708ef11648dfa40ba25b6c4a5a
-Author: Vincent Untz <vuntz@gnome.org>
-Date:	2010-08-05
-
-    [release] 2.31.6
-
-M	NEWS
-M	configure.in
-
-commit 6dca56e8a6abfb320e048b86cbacf89ec368545e
-Author: Frédéric Péters <fpeters@0d.be>
-Date:	2010-07-28
-
-    New configure flag to switch GTK+ version
-
-M	configure.in
-
-commit 371550a23c5a75286e413b37e105dbb3aafd8f0d
-Author: Fran Diéguez <fran.dieguez@mabishu.com>
-Date:	2010-07-18
-
-    Fixed headers in galician translation file
-
-M	po/gl.po
-
-commit baebbce7c600031e07ae321655cce9dd7b746ab0
-Author: Frédéric Péters <fpeters@0d.be>
-Date:	2010-07-13
-
-    [release] 2.31.5
-
-M	NEWS
-M	configure.in
-
-commit d573f1b5eb69df9a78527308bf1386390fe9606c
-Author: Frédéric Péters <fpeters@0d.be>
-Date:	2010-07-13
-
-    Switch to GTK+ 3
-
-M	configure.in
-
-commit ecdd3ff7f8274e01d6fa1911ec6482518b8cbdfe
-Author: Matej Urbančič <mateju@svn.mate.org>
-Date:	2010-06-10
-
-    Updated Slovenian translation
-
-M	po/sl.po
-
-commit 37bcfa1743bd43d2122e88eb6eb066afbe376b26
-Author: Thomas Thurman <tthurman@gnome.org>
-Date:	2010-05-19
-
-    Updated Shavian translation
-
-M	po/en@shaw.po
-
-commit 8f5a8fe4546139425a506ff8c8bef0617f148d74
-Author: Thomas Thurman <tthurman@gnome.org>
-Date:	2010-05-12
-
-    Updated Shavian transliteration
-
-M	po/en@shaw.po
-
-commit 64e22dde8a89bcdf94d163dd3a8564b442ba7bec
-Author: Shankar Prasad <svenkate@svenkate.pnq.redhat.com>
-Date:	2010-04-21
-
-    Updated Kannada translations
-
-M	po/kn.po
-
-commit e764cd2ab32c007915c992f94daf304c050614da
-Author: Olav Vitters <olav@vitters.nl>
-Date:	2010-04-18
-
-    Fix doap file
-
-M	mateconf-editor.doap
-
-commit c855bea2c5de4d1f9560aedfe3393daeb9be40b1
-Author: Andika Triwidada <andika@gmail.com>
-Date:	2010-04-17
-
-    Updated Indonesian translation
-
-M	po/id.po
-
-commit 7eaa8a689af9a5f308760f149057a0a3ba00ec0c
-Author: Runa Bhattacharjee <runab@redhat.com>
-Date:	2010-04-14
-
-    Typo correction
-
-M	po/bn_IN.po
-
-commit 47855f68ae43d5089ffff8b477f290ade7785f5e
-Author: Javier Jardón <jjardon@gnome.org>
-Date:	2010-04-06
-
-    Use accessor functions instead direct access
-
-    Fixes https://bugzilla.mate.org/show_bug.cgi?id=612471
-
-M	configure.in
-M	src/mateconf-bookmarks-dialog.c
-M	src/mateconf-bookmarks.c
-M	src/mateconf-cell-renderer.c
-M	src/mateconf-editor-window.c
-M	src/mateconf-key-editor.c
-M	src/mateconf-search-dialog.c
-
-commit aeec316ff7256e10209c5acb96c595cc4159b652
-Author: Jordi Serratosa <jordis.lists@gmail.com>
-Date:	2010-04-02
-
-    Fixes to Catalan translation
-
-M	po/ca.po
-
-commit 0409e1cf6f5651716f945705d7323ebfed377971
-Author: Cosimo Cecchi <cosimoc@gnome.org>
-Date:	2010-03-30
-
-    Prepare for 2.30.0 release.
-
-M	NEWS
-M	configure.in
-
-commit 9a0d0fea9fcc872e1dc85a00d97af0b02e4a8c8d
-Author: Jamil Ahmed <itsjamil@gmail.com>
-Date:	2010-03-28
-
-    Updated Bengali translation
-
-M	po/bn.po
-
-commit 8b2c7f27686c2cc93641eaa4f4cb2a3377ac25d0
-Author: Sweta Kothari <swkothar@redhat.com>
-Date:	2010-03-26
-
-    Updated Gujarati Translations
-
-M	po/gu.po
-
-commit 783e053f9917059d36fca39a7e8b2cf34ca16f5f
-Author: Inaki Larranaga Murgoitio <dooteo@zundan.com>
-Date:	2010-03-23
-
-    Updated Basque language
-
-M	po/eu.po
-
-commit 9ef30b12b129efc1c2a9b17910b32bae2cdebaf4
-Author: Badral Sanligiin <badral@openmn.org>
-Date:	2010-03-23
-
-    Updated Mongolian translation
-
-M	po/mn.po
-
-commit 38d0c507f51dba7fcf06825d3d1a8111a8dfb362
-Author: Changwoo Ryu <cwryu@debian.org>
-Date:	2010-03-13
-
-    Updated Korean translation
-
-M	po/ko.po
-
-commit eb054341a1443f334c8f0435d5167a8ff705a9db
-Author: Cosimo Cecchi <cosimoc@gnome.org>
-Date:	2010-03-11
-
-    Prepare for release.
-
-M	NEWS
-M	configure.in
-
-commit 2bf7b045a5085844cce40c5f7481f2509147f18f
-Author: Cosimo Cecchi <cosimoc@gnome.org>
-Date:	2010-03-11
-
-    Check if the dialog has not been destroyed.
-
-    Before calling GTK+ functions on it. Fixes a crash when the user
-    dismisses the dialog while the search is in place.
-
-M	src/mateconf-search-dialog.c
-
-commit 7435119e107f164fa83751c9f593da593e74c331
-Author: Cosimo Cecchi <cosimoc@gnome.org>
-Date:	2010-03-10
-
-    Don't use deprecated MateConf synbols.
-
-M	src/mateconf-list-model.c
-M	src/mateconf-search.c
-
-commit 574aa245d210a4bb75aca172712998b50f0f6572
-Author: Cosimo Cecchi <cosimoc@gnome.org>
-Date:	2010-03-10
-
-    Don't use deprecated GTK+ symbols.
-
-M	src/mateconf-editor-window.c
-
-commit d81a517c49f3ccd5a29ee5bb7f6c13fe6afe41e9
-Author: Cosimo Cecchi <cosimoc@gnome.org>
-Date:	2010-03-10
-
-    Use the standard MATE macro to define deprecations.
-
-M	configure.in
-M	src/Makefile.am
-
-commit 6641fd88baf0eb313998e7be4523952b0c9d0395
-Author: Piotr Drąg <piotrdrag@gmail.com>
-Date:	2010-02-26
-
-    Updated Polish translation
-
-M	po/pl.po
-
-commit 37f5d8f04bb39f3a3e4646cc708fc2cbcf6b1fdd
-Author: Marcel Telka <marcel@telka.sk>
-Date:	2010-02-26
-
-    Updated Slovak translation
-
-M	po/sk.po
-
-commit 9d319fd1721dc38331bcb584380d05a83501c477
-Author: Fran Diéguez <frandieguez@ubuntu.com>
-Date:	2010-02-15
-
-    Updated Galician Translation
-
-M	po/gl.po
-
-commit dbcdf8551dc3d155cdab32c47d111c453f9b8fa0
-Author: Jamil Ahmed <itsjamil@gmail.com>
-Date:	2010-01-22
-
-    Updated Bengali translation
-
-M	po/bn.po
-
-commit 0d0eb9fc194a586c3f4fcc16638cfcab49868a41
-Author: Mario Blättermann <mariobl@gnome.org>
-Date:	2009-11-25
-
-    Fixed bug #602880 in German translation
-
-M	po/de.po
-
-commit 745b6cf4644a0d51b451143ee73aa411394b2661
-Author: Thomas Thurman <tthurman@Dorothy.plexq.com>
-Date:	2009-11-12
-
-    Shavian translation
-
-M	po/LINGUAS
-A	po/en@shaw.po
-
-commit b0205cf47f88ae9dbb019ddb2a397fd9fcccd2b0
-Author: Lucian Grijincu <lucian.grijincu@gmail.com>
-Date:	2009-11-08
-
-    Updated Romanian translation
-
-M	po/ro.po
-
-commit cabf8653999dbcc0c367f6777ed80e303e95e75a
-Author: Cosimo Cecchi <cosimoc@gnome.org>
-Date:	2009-09-21
-
-    Start development of 2.29 series
-
-M	configure.in
-
-commit 56e12619f963157bcb1b1bb39f44f1a6dbe8aaee
-Author: Cosimo Cecchi <cosimoc@gnome.org>
-Date:	2009-09-21
-
-    Prepare for 2.28.0 release.
-
-M	NEWS
-M	configure.in
-
-commit d740e7e891197dde52faa71771567b589038490f
-Author: Rajesh Ranjan <rranjan@rranjan.csb>
-Date:	2009-09-18
-
-    maithili update
-
-M	po/LINGUAS
-A	po/mai.po
-
-commit b2413e554595184c2b6566835ae53f311045c24c
-Author: Rajesh Ranjan <rranjan@rranjan.csb>
-Date:	2009-09-16
-
-    hindi update by Rajesh Ranjan
-
-M	po/hi.po
-
-commit 5e14b64cb007fbf2c4bb2349e4def031219eb825
-Author: Khaled Hosny <khaledhosny@eglug.org>
-Date:	2009-09-08
-
-    Updated Arabic translation
-
-M	po/ar.po
-
-commit acdf9eb99491b0665f3f53e3784ffb1f7d847f01
-Author: André Gondim <andregondim@ubuntu.com>
-Date:	2009-09-07
-
-    Corrected some access keys and a grammatical error in Brazilian
-    Portuguese translation file.
-
-M	po/pt_BR.po
-
-commit 6d377148c41547f89225f663f5cbe94d2277c76f
-Author: Denis Arnaud <darnaud@src.mate.org>
-Date:	2009-09-02
-
-    Updated breton translation
-
-M	po/br.po
-
-commit 2725f66b51ce9ebf83ceeacd1d65e1864404dd8d
-Author: Rodrigo L. M. Flores <rlmflores@src.mate.org>
-Date:	2009-08-30
-
-    Updated Brazilian Portuguese mailing list address.
-
-M	po/pt_BR.po
-
-commit d2f10e079a90301c01e2a1adef887c29691d6176
-Author: Miloš Popović <mpopovic@src.mate.org>
-Date:	2009-08-28
-
-    Updated Serbian translation
-
-M	po/sr.po
-M	po/sr@latin.po
-
-commit e76974fa25a41838dbdf5ed8fb4e7b7517c87026
-Author: Cosimo Cecchi <cosimoc@gnome.org>
-Date:	2009-08-24
-
-    Post-release version bump
-
-M	configure.in
-
-commit f5ea6ecb9083de386927cd210a351661edd9f4b1
-Author: Cosimo Cecchi <cosimoc@gnome.org>
-Date:	2009-08-24
-
-    Pre-release version bump
-
-M	configure.in
-
-commit ae355547de2ed6fdf5ee1dc6caa8ce2b3db17867
-Author: Cosimo Cecchi <cosimoc@gnome.org>
-Date:	2009-08-24
-
-    Remove ChangeLog on distclean
-
-M	Makefile.am
-
-commit b3db7dffdfce1c441077964371d6f6dc8abcd267
-Author: Cosimo Cecchi <cosimoc@gnome.org>
-Date:	2009-08-24
-
-    Update news.
-
-M	NEWS
-
-commit fe983da8ca6491dd0e138b61f99f466e830572bb
-Author: Cosimo Cecchi <cosimoc@gnome.org>
-Date:	2009-08-24
-
-    Add myself to the maintainers of this module
-
-M	MAINTAINERS
-M	mateconf-editor.doap
-
-commit 8fbaf480bc2a47dfb1d2698d82cb2c6547b3e811
-Author: Cosimo Cecchi <cosimoc@gnome.org>
-Date:	2009-08-24
-
-    Don't overwrite window->list_model in popup-menu callback
-
-    This causes a crash, as the list view has another sort model on
-    it, and
-    later we will use it instead of the real model.
-    Patch by Sergey Nizovtsev, fix bug #531718.
-
-M	src/mateconf-editor-window.c
-
-commit 6d5c0ac4041eaac3bb76391523f167870e03164e
-Author: Cosimo Cecchi <cosimoc@gnome.org>
-Date:	2009-08-24
-
-    port to PolicyKit 1.0
-
-    This also removes the need of depending on polkit-dbus, and needs
-    a new
-    MateConf to work properly.
-    Based on the patch by Matthias Clasen, fix bug #585596.
-
-M	configure.in
-M	src/Makefile.am
-M	src/mateconf-editor-window.c
-M	src/mateconf-policykit.c
-M	src/mateconf-policykit.h
-
-commit bef8d9cd077bed712c840eb6bd2aed122d49c3e8
-Author: Khaled Hosny <khaledhosny@eglug.org>
-Date:	2009-08-21
-
-    Updated Arabic translation
-
-M	po/ar.po
-
-commit 1066d732638be4715799d4a2f4933800c0eac581
-Author: Iestyn Pryce <dylunio@gmail.com>
-Date:	2009-08-06
-
-    Updated Welsh translation
-
-M	po/cy.po
-
-commit 9e5d96d5116f3a74dc08a7ca2eab4b790719e4bf
-Author: Alexander Nyakhaychyk <nyakhaychyk@gmail.com>
-Date:	2009-07-30
-
-    Updated Belarusian translation
-
-M	po/be.po
-
-commit 6de60d4fbc5a4af396481579c2a884de4a6aaa83
-Author: Petr Kovar <pknbe@volny.cz>
-Date:	2009-07-12
-
-    Added Czech help translation by Marek Cernocky
-
-M	docs/Makefile.am
-A	docs/cs/cs.po
-A	docs/cs/figures/mateconf_editor_anno_window.png
-
-commit bccf95bfcfa16a4845520266e4a75b8f23aa3470
-Author: Maxim V. Dziumanenko <dziumanenko@gmail.com>
-Date:	2009-07-09
-
-    Updated Ukrainian translation
-
-M	po/uk.po
-
-commit 3ffd1ef86e178524d32d90df1943b257fe643872
-Author: Miquel Esplà <miquelespla@gmail.com>
-Date:	2009-05-25
-
-    Added Valencian-Catalan translation
-
-M	po/LINGUAS
-A	po/ca@valencia.po
-
-commit 28f8829e4c830c40ecba1e0568a7e1dfda5897f8
-Author: Awgnl <y.z.h@gmx.com>
-Date:	2009-05-15
-
-    Added Simplified Chinese document translation.
-
-M	docs/Makefile.am
-A	docs/zh_CN/zh_CN.po
-
-commit 0d4ecb4e3d191ccd9fef1417524c7fcff7535fe4
-Author: Perier Romain <mrpouet@tuxfamily.org>
-Date:	2009-05-06
-
-    Make PolicyKit support optional
-
-    Make PolictKiy an optional dependency, turned on by default (#579096).
-
-    Signed-off-by: Cosimo Cecchi <cosimoc@gnome.org>
-
-M	configure.in
-M	src/Makefile.am
-M	src/mateconf-editor-window.c
-
-commit dd126519f52155008b1483aa98217f8f1b77732c
-Author: Cosimo Cecchi <cosimoc@gnome.org>
-Date:	2009-04-30
-
-    Generate ChangeLog file from git log
-
-    Autogenerate the ChangeLog file from git log output.
-
-R100	ChangeLog	ChangeLog.pre-git
-M	Makefile.am
-
-commit 73aa4444a8894738c7c1a6ffc38d6ad3377a4940
-Author: Olav Vitters <olav@bkor.dhs.org>
-Date:	2009-04-23
-
-    Add DOAP file
-
-M	mateconf-editor.doap
-
-commit 8eb8f4e387167d981644057842538afa32ebb2e4
-Author: Cosimo Cecchi <cosimoc@gnome.org>
-Date:	2009-04-21
-
-    2009-04-21	Cosimo Cecchi  <cosimoc@gnome.org>
-
-	* mateconf-editor.doap: add the DOAP file for this project.
-
-M	ChangeLog
-A	mateconf-editor.doap
-
-commit a699cc47e1936008f9df1837849c3cfcba089e1e
-Author: Cosimo Cecchi <cosimoc@gnome.org>
-Date:	2009-04-21
-
-    2009-04-21	Cosimo Cecchi  <cosimoc@gnome.org>
-
-	* src/mateconf-editor-window.c (mateconf_editor_window_finalize):
-	We can always unref the MateConfClient object now that bug #579751
-	has
-	been fixed.
-
-M	ChangeLog
-M	src/mateconf-editor-window.c
-
-commit 4d95403a96a98eb4d8b3b85359febc8e7ef9f78e
-Author: Cosimo Cecchi <cosimoc@gnome.org>
-Date:	2009-04-21
-
-    2009-04-21	Cosimo Cecchi  <cosimoc@gnome.org>
-
-	* uk/mateconf-editor.xml: remove this, as it's autogenerated.
-
-M	docs/ChangeLog
-D	docs/uk/mateconf-editor.xml
-
-commit 42dccca2de10735a2a68532fdf91ee2c5707acb6
-Author: Cosimo Cecchi <cosimoc@gnome.org>
-Date:	2009-04-21
-
-    2009-04-21	Cosimo Cecchi  <cosimoc@gnome.org>
-
-	* src/mateconf-list-model.c (mateconf_list_model_finalize),
-	(mateconf_list_model_set_client):
-	* src/mateconf-tree-model.c (mateconf_tree_model_set_client):
-	Ref the MateConfClient object when setting it to a model (#579751).
-
-M	ChangeLog
-M	src/mateconf-list-model.c
-M	src/mateconf-tree-model.c
-
-commit 6fa99f2ffa75ebdf822801e7c547873513744a6e
-Author: Funda Wang <fwang@n1.mandriva.com>
-Date:	2009-04-17
-
-    Updated zh_CN translation.
-
-M	po/ChangeLog
-M	po/zh_CN.po
-
-commit 25955cbc5d24b5e8f7c42bc9dc41ee4b87ba32cb
-Author: Jorge Gonzalez Gonzalez <jorgegonz@src.mate.org>
-Date:	2009-04-12
-
-    Updated Spanish translation
-
-    svn path=/trunk/; revision=1518
-
-M	po/ChangeLog
-M	po/es.po
-
-commit c8887a921cd279429da3b38f95052484750f6fb6
-Author: Simos Xenitellis <simos@src.mate.org>
-Date:	2009-04-04
-
-    Added screenshot (Fotis Tsamis)
-
-    svn path=/trunk/; revision=1517
-
-M	docs/ChangeLog
-A	docs/el/figures/mateconf_editor_anno_window.png
-
-commit 8dde902350bde2a14e1d2f706f421248d45969bb
-Author: Shankar Prasad <sprasad@src.mate.org>
-Date:	2009-03-25
-
-    updated kn.po
-
-    svn path=/trunk/; revision=1516
-
-M	po/kn.po
-
-commit 327f168d038435cd07560080fe3c809a65f137f6
-Author: Shankar Prasad <sprasad@src.mate.org>
-Date:	2009-03-25
-
-    updated kn.po
-
-    svn path=/trunk/; revision=1515
-
-M	po/ChangeLog
-
-commit 186870f9066314949da79804a04ebe97a35a398e
-Author: Amanpreet Singh Alam <aman@src.mate.org>
-Date:	2009-03-20
-
-    Updating Punjabi Translation (pa)
-
-    svn path=/trunk/; revision=1514
-
-M	po/pa.po
-
-commit 77cf6fd6b92c63a7a899851bb2f49d6309db04e4
-Author: Shankar Prasad <sprasad@src.mate.org>
-Date:	2009-03-19
-
-    updated kn.po
-
-    svn path=/trunk/; revision=1513
-
-M	po/ChangeLog
-M	po/kn.po
-
-commit a5717e769141a359504b62f666d96c215f4e98ec
-Author: Djihed Afifi <djihed@src.mate.org>
-Date:	2009-03-18
-
-    Updated Arabic translation
-
-    svn path=/trunk/; revision=1512
-
-M	po/ChangeLog
-M	po/ar.po
-
-commit 8ad73c4db14b7b027f66069d08e19cfb9d53e93d
-Author: Vincent Untz <vuntz@gnome.org>
-Date:	2009-03-17
-
-    post-release bump to 2.26.1
-
-    2009-03-17	Vincent Untz  <vuntz@gnome.org>
-
-	* configure.in: post-release bump to 2.26.1
-
-    svn path=/trunk/; revision=1511
-
-M	ChangeLog
-M	configure.in
-M	docs/ChangeLog
-M	po/ChangeLog
+commit 9162ce226c5a7d93c61346d2fc1f0b6d4d2d7f1e
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Mon Dec 12 23:19:09 2011 +0100
+
+    updated version to 1.1.0
+
+ AUTHORS                   |    1 +
+ configure.in              |    6 +++---
+ distro/archlinux/PKGBUILD |    2 +-
+ distro/ubuntu/build       |    2 +-
+ 4 files changed, 6 insertions(+), 5 deletions(-)
+
+commit dc3effa3f0d663f5dca94cdba81f57a21aa780c2
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Mon Dec 12 23:17:26 2011 +0100
+
+    remove autogenerated files
+
+ Makefile.in            |  793 ---
+ aclocal.m4             | 1857 ------
+ config.guess           | 1501 -----
+ config.h.in            |   89 -
+ config.sub             | 1705 -----
+ configure              |16350 ------------------------------------------------
+ data/Makefile.in       |  692 --
+ data/icons/Makefile.in |  479 --
+ depcomp                |  630 --
+ docs/Makefile.in       | 1048 ----
+ install-sh             |  520 --
+ missing                |  376 --
+ mkinstalldirs          |  162 -
+ po/Makefile.in.in      |  217 -
+ src/Makefile.in        |  631 --
+ 15 files changed, 0 insertions(+), 27050 deletions(-)
+
+commit 5e7e02307b38f8627b70c2dbb2d8182df89a7020
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Sun Dec 11 12:53:12 2011 +0100
+
+    moved from mate-extra
+
+ AUTHORS                                            |    1 +
+ COPYING                                            |  339 +
+ ChangeLog                                          |  706 +
+ ChangeLog.pre-git                                  | 2418 +++
+ MAINTAINERS                                        |    7 +
+ Makefile.am                                        |   38 +
+ Makefile.in                                        |  793 +
+ NEWS                                               |  318 +
+ README                                             |    1 +
+ aclocal.m4                                         | 1857 +++
+ autogen.sh                                         |   22 +
+ config.guess                                       | 1501 ++
+ config.h.in                                        |   89 +
+ config.h.in~                                       |   89 +
+ config.sub                                         | 1705 ++
+ configure                                          |16350 ++++++++++++++++++++
+ configure.in                                       |   98 +
+ data/Makefile.am                                   |   29 +
+ data/Makefile.in                                   |  692 +
+ data/icons/Makefile.am                             |   84 +
+ data/icons/Makefile.in                             |  479 +
+ data/icons/hicolor_apps_48x48_mateconf-editor.png  |  Bin 0 -> 4119 bytes
+ data/icons/hicolor_status_16x16_type-boolean.png   |  Bin 0 -> 451 bytes
+ data/icons/hicolor_status_16x16_type-float.png     |  Bin 0 -> 352 bytes
+ data/icons/hicolor_status_16x16_type-integer.png   |  Bin 0 -> 352 bytes
+ data/icons/hicolor_status_16x16_type-list.png      |  Bin 0 -> 458 bytes
+ data/icons/hicolor_status_16x16_type-pair.png      |  Bin 0 -> 292 bytes
+ data/icons/hicolor_status_16x16_type-schema.png    |  Bin 0 -> 439 bytes
+ data/icons/hicolor_status_16x16_type-string.png    |  Bin 0 -> 395 bytes
+ data/icons/hicolor_status_16x16_type-undefined.png |  Bin 0 -> 292 bytes
+ data/mateconf-editor.desktop.in.in                 |   13 +
+ data/mateconf-editor.schemas.in                    |   16 +
+ depcomp                                            |  630 +
+ distro/archlinux/PKGBUILD                          |   34 +
+ distro/archlinux/mate-conf.install                 |   25 +
+ distro/ubuntu/build                                |   32 +
+ distro/ubuntu/postinst                             |   10 +
+ distro/ubuntu/postrm                               |    9 +
+ distro/ubuntu/preinst                              |    6 +
+ distro/ubuntu/prerm                                |    9 +
+ docs/C/figures/entry-blank.png                     |  Bin 0 -> 292 bytes
+ docs/C/figures/entry-bool.png                      |  Bin 0 -> 451 bytes
+ docs/C/figures/entry-list.png                      |  Bin 0 -> 458 bytes
+ docs/C/figures/entry-number.png                    |  Bin 0 -> 352 bytes
+ docs/C/figures/entry-schema.png                    |  Bin 0 -> 439 bytes
+ docs/C/figures/entry-string.png                    |  Bin 0 -> 395 bytes
+ docs/C/figures/mateconf_editor_anno_window.png     |  Bin 0 -> 66664 bytes
+ docs/C/legal.xml                                   |   76 +
+ docs/C/mateconf-editor.xml                         |  539 +
+ docs/ChangeLog                                     |  209 +
+ docs/Makefile.am                                   |   19 +
+ docs/Makefile.in                                   | 1048 ++
+ docs/ca/ca.po                                      | 1151 ++
+ docs/ca/figures/mateconf_editor_anno_window.png    |  Bin 0 -> 55603 bytes
+ docs/cs/cs.po                                      |  606 +
+ docs/cs/figures/mateconf_editor_anno_window.png    |  Bin 0 -> 76655 bytes
+ docs/de/de.po                                      | 1180 ++
+ docs/de/figures/mateconf_editor_anno_window.png    |  Bin 0 -> 51182 bytes
+ docs/el/el.po                                      |  633 +
+ docs/el/figures/mateconf_editor_anno_window.png    |  Bin 0 -> 62014 bytes
+ docs/en_GB/en_GB.po                                | 1117 ++
+ docs/es/es.po                                      | 1167 ++
+ docs/es/figures/mateconf_editor_anno_window.png    |  Bin 0 -> 66025 bytes
+ docs/fr/figures/mateconf_editor_anno_window.png    |  Bin 0 -> 61165 bytes
+ docs/fr/fr.po                                      | 1144 ++
+ docs/it/figures/mateconf_editor_anno_window.png    |  Bin 0 -> 45061 bytes
+ docs/it/it.po                                      | 1162 ++
+ docs/mateconf-editor.1                             |   38 +
+ docs/mateconf-editor.omf.in                        |   11 +
+ docs/oc/oc.po                                      |  851 +
+ docs/pt_BR/figures/mateconf_editor_anno_window.png |  Bin 0 -> 109484 bytes
+ docs/pt_BR/pt_BR.po                                | 1148 ++
+ docs/ru/ru.po                                      | 1115 ++
+ docs/sv/figures/mateconf_editor_anno_window.png    |  Bin 0 -> 80374 bytes
+ docs/sv/sv.po                                      |  611 +
+ docs/th/figures/mateconf_editor_anno_window.png    |  Bin 0 -> 62675 bytes
+ docs/th/th.po                                      | 1065 ++
+ docs/uk/figures/mateconf_editor_anno_window.png    |  Bin 0 -> 46520 bytes
+ docs/uk/uk.po                                      | 1092 ++
+ docs/zh_CN/zh_CN.po                                | 1015 ++
+ install-sh                                         |  520 +
+ ltmain.sh                                          | 9636 ++++++++++++
+ m4/intltool.m4                                     |  216 +
+ m4/libtool.m4                                      | 7831 ++++++++++
+ m4/ltoptions.m4                                    |  369 +
+ m4/ltsugar.m4                                      |  123 +
+ m4/ltversion.m4                                    |   23 +
+ m4/lt~obsolete.m4                                  |   98 +
+ m4/mate-doc-utils.m4                               |    1 +
+ missing                                            |  376 +
+ mkinstalldirs                                      |  162 +
+ po/ChangeLog                                       | 3259 ++++
+ po/LINGUAS                                         |   88 +
+ po/Makefile.in.in                                  |  217 +
+ po/POTFILES.in                                     |   13 +
+ po/POTFILES.skip                                   |    1 +
+ po/am.po                                           |  498 +
+ po/ar.po                                           |  481 +
+ po/as.po                                           |  473 +
+ po/ast.po                                          |  472 +
+ po/az.po                                           |  449 +
+ po/be.po                                           |  478 +
+ po/be@latin.po                                     |  458 +
+ po/bg.po                                           |  477 +
+ po/bn.po                                           |  603 +
+ po/bn_IN.po                                        |  476 +
+ po/br.po                                           |  476 +
+ po/bs.po                                           |  438 +
+ po/ca.po                                           |  603 +
+ po/ca@valencia.po                                  |  604 +
+ po/cs.po                                           |  480 +
+ po/cy.po                                           |  576 +
+ po/da.po                                           |  488 +
+ po/de.po                                           |  494 +
+ po/dz.po                                           |  479 +
+ po/el.po                                           |  612 +
+ po/en@shaw.po                                      |  437 +
+ po/en_CA.po                                        |  455 +
+ po/en_GB.po                                        |  482 +
+ po/es.po                                           |  482 +
+ po/et.po                                           |  475 +
+ po/eu.po                                           |  476 +
+ po/fa.po                                           |  571 +
+ po/fi.po                                           |  477 +
+ po/fr.po                                           |  487 +
+ po/ga.po                                           |  458 +
+ po/gl.po                                           |  492 +
+ po/gu.po                                           |  519 +
+ po/he.po                                           |  465 +
+ po/hi.po                                           |  527 +
+ po/hr.po                                           |  480 +
+ po/hu.po                                           |  478 +
+ po/id.po                                           |  476 +
+ po/it.po                                           |  481 +
+ po/ja.po                                           |  472 +
+ po/ka.po                                           |  457 +
+ po/kk.po                                           |  468 +
+ po/kn.po                                           |  465 +
+ po/ko.po                                           |  467 +
+ po/ku.po                                           |  444 +
+ po/li.po                                           |  560 +
+ po/lt.po                                           |  486 +
+ po/lv.po                                           |  468 +
+ po/mai.po                                          |  462 +
+ po/mg.po                                           |  459 +
+ po/mk.po                                           |  471 +
+ po/ml.po                                           |  472 +
+ po/mn.po                                           |  495 +
+ po/mr.po                                           |  518 +
+ po/ms.po                                           |  447 +
+ po/nb.po                                           |  462 +
+ po/ne.po                                           |  462 +
+ po/nl.po                                           |  496 +
+ po/nn.po                                           |  454 +
+ po/oc.po                                           |  454 +
+ po/or.po                                           |  516 +
+ po/pa.po                                           |  525 +
+ po/pl.po                                           |  472 +
+ po/ps.po                                           |  470 +
+ po/pt.po                                           |  508 +
+ po/pt_BR.po                                        |  539 +
+ po/ro.po                                           |  484 +
+ po/ru.po                                           |  480 +
+ po/rw.po                                           |  549 +
+ po/si.po                                           |  443 +
+ po/sk.po                                           |  470 +
+ po/sl.po                                           |  501 +
+ po/sq.po                                           |  464 +
+ po/sr.po                                           |  614 +
+ po/sr@latin.po                                     |  614 +
+ po/sv.po                                           |  675 +
+ po/ta.po                                           |  471 +
+ po/te.po                                           |  468 +
+ po/th.po                                           |  599 +
+ po/tr.po                                           |  504 +
+ po/ug.po                                           |  453 +
+ po/uk.po                                           |  471 +
+ po/vi.po                                           |  480 +
+ po/xh.po                                           |  456 +
+ po/zh_CN.po                                        |  475 +
+ po/zh_HK.po                                        |  503 +
+ po/zh_TW.po                                        |  503 +
+ src/Makefile.am                                    |   62 +
+ src/Makefile.in                                    |  631 +
+ src/gedit-output-window.c                          |  603 +
+ src/gedit-output-window.h                          |   83 +
+ src/main.c                                         |  114 +
+ src/mateconf-bookmarks-dialog.c                    |  278 +
+ src/mateconf-bookmarks-dialog.h                    |   56 +
+ src/mateconf-bookmarks.c                           |  243 +
+ src/mateconf-bookmarks.h                           |   32 +
+ src/mateconf-cell-renderer.c                       |  477 +
+ src/mateconf-cell-renderer.h                       |   63 +
+ src/mateconf-editor-application.c                  |   75 +
+ src/mateconf-editor-application.h                  |   27 +
+ src/mateconf-editor-window.c                       | 1780 +++
+ src/mateconf-editor-window.h                       |  102 +
+ src/mateconf-key-editor.c                          | 1022 ++
+ src/mateconf-key-editor.h                          |   92 +
+ src/mateconf-list-model.c                          |  436 +
+ src/mateconf-list-model.h                          |   68 +
+ src/mateconf-marshal.c                             |  126 +
+ src/mateconf-marshal.h                             |   28 +
+ src/mateconf-marshal.list                          |    2 +
+ src/mateconf-policykit.c                           |  318 +
+ src/mateconf-policykit.h                           |   44 +
+ src/mateconf-search-dialog.c                       |  190 +
+ src/mateconf-search-dialog.h                       |   52 +
+ src/mateconf-search.c                              |  160 +
+ src/mateconf-search.h                              |   46 +
+ src/mateconf-stock-icons.c                         |   62 +
+ src/mateconf-stock-icons.h                         |   31 +
+ src/mateconf-tree-model.c                          |  537 +
+ src/mateconf-tree-model.h                          |   64 +
+ src/mateconf-util.c                                |  163 +
+ src/mateconf-util.h                                |   38 +
+ 216 files changed, 118914 insertions(+), 0 deletions(-)
