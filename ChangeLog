@@ -1,3 +1,49 @@
+commit ef4c5beef41f2c8efe1b3b46cfbe28b1cf0869a4
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Jul 10 16:57:53 2012 +0200
+
+    add po gnome copyrights file
+
+ po/gnome-copyrights.txt | 1041 +++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 1041 insertions(+)
+
+commit 21daa02e21fa2b454a8e50d1e08c01bdbff35c95
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Mon Mar 12 14:11:16 2012 +0100
+
+    update for 1.2 release
+
+ AUTHORS      |    7 ++++++-
+ README       |    4 +++-
+ autogen.sh   |    4 ++--
+ configure.in |    4 ++--
+ 4 files changed, 13 insertions(+), 6 deletions(-)
+
+commit 4c524c2a6b64f639162d65b37006e12ffb7adfd6
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Mon Mar 12 14:11:09 2012 +0100
+
+    removed ubuntu folder
+
+ distro/ubuntu/build    |   32 --------------------------------
+ distro/ubuntu/postinst |   10 ----------
+ distro/ubuntu/postrm   |    9 ---------
+ distro/ubuntu/preinst  |    6 ------
+ distro/ubuntu/prerm    |    9 ---------
+ 5 files changed, 66 deletions(-)
+
+commit fa4bfbd280e92e2f74e05a57d535ff1284e5edad
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Mon Mar 12 14:09:20 2012 +0100
+
+    removed unuseful files, update changelog
+
+ ChangeLog         |  964 ++++++---------------
+ ChangeLog.pre-git | 2418 -----------------------------------------------------
+ MAINTAINERS       |    7 -
+ config.h.in~      |   89 --
+ 4 files changed, 258 insertions(+), 3220 deletions(-)
+
 commit 9162ce226c5a7d93c61346d2fc1f0b6d4d2d7f1e
 Author: Stefano Karapetsas <stefano@karapetsas.com>
 Date:   Mon Dec 12 23:19:09 2011 +0100
@@ -31,7 +77,7 @@ Date:   Mon Dec 12 23:17:26 2011 +0100
  mkinstalldirs          |  162 -
  po/Makefile.in.in      |  217 -
  src/Makefile.in        |  631 --
- 15 files changed, 0 insertions(+), 27050 deletions(-)
+ 15 files changed, 27050 deletions(-)
 
 commit 5e7e02307b38f8627b70c2dbb2d8182df89a7020
 Author: Stefano Karapetsas <stefano@karapetsas.com>
@@ -255,4 +301,4 @@ Date:   Sun Dec 11 12:53:12 2011 +0100
  src/mateconf-tree-model.h                          |   64 +
  src/mateconf-util.c                                |  163 +
  src/mateconf-util.h                                |   38 +
- 216 files changed, 118914 insertions(+), 0 deletions(-)
+ 216 files changed, 118914 insertions(+)
